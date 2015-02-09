@@ -63,6 +63,7 @@ namespace Kaltura
                 new KalturaThumbParams(){Height = 500,Width = 500,VideoOffset= 7.0f,Name="C"}
                 };
    
+
             List<KalturaThumbAsset> assets = new List<KalturaThumbAsset>();
 
             for(int i =0; i < thumbs.Length; i++)
