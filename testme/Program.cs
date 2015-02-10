@@ -66,6 +66,7 @@ namespace Kaltura
             //added a comment
             List<KalturaThumbAsset> assets = new List<KalturaThumbAsset>();
 
+            //yet another comment
             for(int i =0; i < thumbs.Length; i++)
             {
                 thumbs[i] = client.ThumbParamsService.Add(thumbs[i]);
@@ -75,6 +76,7 @@ namespace Kaltura
           
               }
 
+            // specific to experimental
      
             while (assets.Count > 0)
             {
